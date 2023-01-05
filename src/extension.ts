@@ -13,11 +13,11 @@ let newsStatusBarItem = vscode.window.createStatusBarItem(
 	999
 );
 
+const loadExtensionConfig = () => vscode.workspace.getConfiguration("financeMarketNewsTicker");
+
 // This method is called when your extension is activated
 // Your extension is activated the very first time the command is executed
 export async function activate(context: vscode.ExtensionContext) {
-	console.log('initializing');
-
 	const showMarketHeadlinesCommandId = 'showMarketHeadlines';
 	newsStatusBarItem.command = showMarketHeadlinesCommandId;
 	context.subscriptions.push(newsStatusBarItem);
@@ -34,10 +34,8 @@ export async function activate(context: vscode.ExtensionContext) {
 		newsStatusBarItem.text = `Failed to fetch market headlines, attempting again...`;
 	}
 
-	console.log(`Found ${marketHeadlines.length} results`);
-
 	updateNewsTicker();
-	setInterval(updateNewsTicker, 5000);
+	setInterval(updateNewsTicker, loadExtensionConfig().cycleSpeed * 1000);
 
 	context.subscriptions.push(
 		vscode.commands.registerCommand(showMarketHeadlinesCommandId, async () => {
@@ -51,8 +49,8 @@ const updateNewsTicker = async () => {
 	currentHeadline = randomHeadline;
 
 	newsStatusBarItem.show();
-	newsStatusBarItem.tooltip = 'Test';
-	newsStatusBarItem.text = `${currentHeadline.Headline}`;
+	newsStatusBarItem.tooltip = `${currentHeadline.Headline}`;
+	newsStatusBarItem.text = `$(notebook-render-output) ${currentHeadline.Headline}`;
 }
 
 const fetchMarketHeadlines = async (): Promise<Array<INewsCategory>> => {

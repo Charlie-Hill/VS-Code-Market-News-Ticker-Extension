@@ -14,7 +14,18 @@
   ],
   "main": "./dist/extension.js",
   "contributes": {
-      
+    "configuration": [
+      {
+        "title": "Finance Market News Ticker Configruation",
+        "properties": {
+          "financeMarketNewsTicker.cycleSpeed": {
+            "type": "integer",
+            "description": "Set the ticker cycle speed (seconds)",
+            "default": 5
+          }
+        }
+      }
+    ]
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
