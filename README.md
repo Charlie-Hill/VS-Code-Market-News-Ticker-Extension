@@ -1,6 +1,6 @@
-# market-news-ticker README
+# Finance & Market News Ticker VS Code Extension
 
-This is the README for your extension "market-news-ticker". After writing up a brief description, we recommend including the following sections.
+This extension provides a simple news ticker to help keep you updated with the latest market, finance & business news headlines without leaving your code editor.
 
 ## Features
 
