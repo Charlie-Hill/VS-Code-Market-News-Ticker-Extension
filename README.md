@@ -1,4 +1,4 @@
-![Logo](logo.png "Logo Image")
+![Logo](images/logo.png "Logo Image")
 
 # Finance & Market News Ticker VS Code Extension
 
