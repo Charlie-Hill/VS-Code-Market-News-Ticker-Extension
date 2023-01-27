@@ -1,4 +1,4 @@
-![Logo](images/logo.png "Logo Image")
+![Logo](https://raw.githubusercontent.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/main/images/logo.png "Logo Image")
 
 # Finance & Market News Ticker VS Code Extension
 
