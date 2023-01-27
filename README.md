@@ -1,3 +1,5 @@
+![Logo](logo.png "Logo Image")
+
 # Finance & Market News Ticker VS Code Extension
 
 This extension provides a simple news ticker to help keep you updated with the latest market, finance & business news headlines without leaving your code editor.
@@ -15,10 +17,6 @@ Latest global finance, business & market news headlines from sources such as Reu
 ## Demo
 ![Demonstration](https://raw.githubusercontent.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/c75c7e5055b10a773289091df105c61ed7f3d51c/demo.gif "Animated demonstration of the extension in action")
 
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
 
 ## Extension Settings
 
