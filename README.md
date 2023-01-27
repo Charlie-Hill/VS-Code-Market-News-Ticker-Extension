@@ -8,12 +8,12 @@ Latest global finance, business & market news headlines from sources such as Reu
 
 <!-- For example if there is an image subfolder under your extension project workspace:
 
-\!\[feature X\]\(images/feature-x.png\) -->
+\!\[feature X\]\(https://github.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/blob/main/demo.gif?raw=true\) -->
 
 <!-- > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
 
 ## Demo
-
+\!\[feature X\]\(images/feature-x.png\)
 
 ## Requirements
 
