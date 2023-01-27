@@ -13,7 +13,8 @@ Latest global finance, business & market news headlines from sources such as Reu
 <!-- > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
 
 ## Demo
-\!\[feature X\]\(images/feature-x.png\)
+![Demonstration](https://raw.githubusercontent.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/c75c7e5055b10a773289091df105c61ed7f3d51c/demo.gif "Animated demonstration of the extension in action")
+
 
 ## Requirements
 
