@@ -2,7 +2,7 @@
   "name": "market-news-ticker",
   "displayName": "Market News Ticker",
   "description": "Display business & financial market news in vscode so you can keep up to date with the latest current events without leaving your code!",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": "https://github.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension",
   "icon": "images/logo.png",
   "publisher": "CharlieHill",
