@@ -1,11 +1,19 @@
 <p align="center" width="100%">
 <img src="https://raw.githubusercontent.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/main/images/logo.png" width="230px">
 </p>
+
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://img.shields.io/visual-studio-marketplace/i/CharlieHill.market-news-ticker" alt="Installs">
+  <img src="https://img.shields.io/visual-studio-marketplace/d/CharlieHill.market-news-ticker" alt="Downloads">
+</div>
+
 <br />
 
 # Finance & Market News Ticker VS Code Extension
 
 This extension provides a simple news ticker to help keep you updated with the latest market, finance & business news headlines without leaving your code editor.
+
+Microsoft Visual Studio Code Marketplace Link: [Here](https://marketplace.visualstudio.com/items?itemName=CharlieHill.market-news-ticker)
 
 ## Demo
 ![Demonstration](https://raw.githubusercontent.com/Charlie-Hill/VS-Code-Market-News-Ticker-Extension/c75c7e5055b10a773289091df105c61ed7f3d51c/demo.gif "Animated demonstration of the extension in action")
